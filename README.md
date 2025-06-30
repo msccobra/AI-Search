@@ -1,15 +1,15 @@
 # AI-Search
-Descrição da implementação e utilização das ferramentas auxiliares (mandatórias) e da plataforma Azure AI Search
+Descrição da implementação e utilização das ferramentas auxiliares (mandatórias) e da plataforma Azure AI Search.
 
 # Guia Completo de Azure AI Search
 
-Este guia unificado mostra, de forma básica, como criar e configurar tudo que você precisa para usar o Azure AI Search com documentos `.docx` e `.pdf`.
+Este guia mostra, de forma básica, como criar e configurar tudo que você precisa para usar o Azure AI Search com documentos `.docx` e `.pdf`. O títulode cada seção corresponde ao link para a imagem cosrrespondente.
 
 ---
 
 ## 1. Criar Azure Cognitive Search
 
-![Passo 1: Criar Azure Cognitive Search](https://via.placeholder.com/600x300?text=Passo+1+-+Azure+Cognitive+Search)
+[Passo 1: Criar Azure Cognitive Search](https://github.com/msccobra/AI-Search/blob/Images/Criar%20AI%20Services%20no.png)
 
 1. Acesse o [Azure Portal](https://portal.azure.com).  
 2. Clique em **Criar um recurso** (＋ no canto superior).  
@@ -25,7 +25,7 @@ Este guia unificado mostra, de forma básica, como criar e configurar tudo que v
 
 ## 2. Criar recurso AI Services
 
-![Passo 2: Criar AI Services](https://via.placeholder.com/600x300?text=Passo+2+-+AI+Services)
+[Passo 2: Criar AI Services](https://github.com/msccobra/AI-Search/blob/Images/Criar%20Azure%20Cognitiv.png)
 
 1. No Portal, clique em **Criar um recurso**.  
 2. Pesquise por **AI Services** e selecione.  
@@ -40,7 +40,7 @@ Este guia unificado mostra, de forma básica, como criar e configurar tudo que v
 
 ## 3. Criar Storage Account
 
-![Passo 3: Criar Storage Account](https://via.placeholder.com/600x300?text=Passo+3+-+Storage+Account)
+[Passo 3: Criar Storage Account](https://github.com/msccobra/AI-Search/blob/Images/Passo%203_%20Criar%20Stora.png)
 
 1. No Portal, **Criar um recurso** ► **Storage Account**.  
 2. Clique em **Criar** e defina:
@@ -56,7 +56,7 @@ Este guia unificado mostra, de forma básica, como criar e configurar tudo que v
 
 ## 4. Enviar documentos para a Storage Account
 
-![Passo 4: Upload de Documentos](https://via.placeholder.com/600x300?text=Passo+4+-+Upload+de+Documentos)
+[Passo 4: Upload de Documentos](https://github.com/msccobra/AI-Search/blob/Images/Passo%204_%20Upload%20de%20D.png)
 
 ### 4.1 Pelo Portal do Azure
 
@@ -70,7 +70,7 @@ Este guia unificado mostra, de forma básica, como criar e configurar tudo que v
 
 ## 5. Configurar Azure Cognitive Search
 
-![Passo 5: Configurar Cognitive Search](https://via.placeholder.com/600x300?text=Passo+5+-+Configura%C3%A7%C3%A3o+Search)
+[Passo 5: Configurar Cognitive Search](https://github.com/msccobra/AI-Search/blob/Images/Passo%205_%20Configurar%20.png)
 
 ### 5.1 Data Source
 
@@ -121,7 +121,7 @@ Este guia unificado mostra, de forma básica, como criar e configurar tudo que v
 
 ## 6. Fazer buscas com IA
 
-![Passo 6: Buscar no Search Explorer](https://via.placeholder.com/600x300?text=Passo+6+-+Search+Explorer)
+[Passo 6: Buscar no Search Explorer](https://github.com/msccobra/AI-Search/blob/Images/Passo%206_%20Fazer%20busca.png)
 
 ### 6.1 Usando o Search Explorer
 
