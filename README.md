@@ -1,6 +1,12 @@
 # AI-Search
 Descrição da implementação e utilização das ferramentas auxiliares (mandatórias) e da plataforma Azure AI Search.
 
+Neste caso, usando os conceitos de engenharia de prompt aprendidos no curso, pedi à IA que descrevesse o processo, no caso o Copilot. As imagens também foram criadas pela IA.
+
+Naturalmente, tudo foi revisado e algumas alterações (basicamente de estilo) foram feitas. Seguindo-se os passos desse guia, será possível fazer uso da plataforma Azure AI Search de maneira bastante fácil.
+
+Ao final, colocarei os prompts usados para atingir os resultados.
+
 # Guia Completo de Azure AI Search
 
 Este guia mostra, de forma básica, como criar e configurar tudo que você precisa para usar o Azure AI Search com documentos `.docx` e `.pdf`. O títulode cada seção corresponde ao link para a imagem cosrrespondente.
@@ -133,4 +139,38 @@ Este guia mostra, de forma básica, como criar e configurar tudo que você preci
 - **Trecho do conteúdo** (snippet) extraído pelo skill de Document Extraction  
 - **Score**: relevância calculada pelo motor de busca  
 - **metadata_storage_name**: nome do arquivo (ex: `relatorioAI.pdf`)  
-6. (Opcional) Ative **Semantic search** no painel lateral e escolha a configuração (ex.: `default`) para obter compreensão de linguagem natural nos resultados. 
+6. (Opcional) Ative **Semantic search** no painel lateral e escolha a configuração (ex.: `default`) para obter compreensão de linguagem natural nos resultados.
+
+
+#Prompts
+
+## Transcrição Rápida dos Prompts
+
+Abaixo, a sequência dos seus comandos ao longo da conversa:
+
+1. **Criação do guia básico**  
+   “Crie um guia simples (em linguagem markdown) a respeito da utilização da ferramenta Azure AI search. O guia deve conter em sua estrutura, a criação de um recurso no azure ai search, criar um novo recurso de ai services, criar uma storage account. A descrição da criação desses recursos deve ser bem básica, sem se aprofundar nas opções avançadas, atendendo ao básico, apenas.”
+
+2. **Inserir dados e indexar**  
+   “Está muito bom. Poderia citar como inserir dados no armazenamento que criamos e daí como indexar e fazer as buscas por AI em documentos de texto, como docx e pdf?”
+
+3. **Guia unificado para GitHub**  
+   “É possível pegar toda a descrição feita, desde o primeiro prompt, e organizá-la de maneira a colocá-la no meu GitHub, em uma só parte?”
+
+4. **Adicionar imagens (placeholders)**  
+   “Seria possível, já que você também é uma plataforma da Microsoft, adicionar algumas imagens desses passos? Não mais que uma por etapa e colocar o link no texto.”
+
+5. **Imagem do Passo 1**  
+   “Vc poderia criar um imagem relativa ao passo 1?”
+
+6. **Imagem do Passo 2**  
+   “Agora do passo 2.”
+
+7. **Imagens dos Passos 3 e 4**  
+   “Dos passos 3 e 4.”
+
+8. **Imagens dos Passos 5 e 6**  
+   “Por fim os passos 5 e 6.”
+
+9. **Transcrição em Markdown**  
+   “Vc poderia fazer, em markdown, uma transcrição rápida da nossa conversa, com foco nos meus prompts?”
